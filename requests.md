@@ -17,7 +17,7 @@ FROM nurse n
 WHERE n.department = 1;  
 ```
 
-## **Медсестри обраного відділення**
+## **Чергування (у будь-яких палатах) у зазначену зміну**
 
 ```sql
 SELECT n.name AS nurse_name, n.date AS shift_date, w.name AS ward_name
